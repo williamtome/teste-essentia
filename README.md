@@ -12,6 +12,8 @@ William Weirich Tomé
 * Composer
 * MySQL
 * Docker
+* HTML 5
+* Bootstrap 5
 
 ### Passos para executar o projeto
 
