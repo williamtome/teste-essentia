@@ -12,7 +12,7 @@ class ImageService
         $imageName = time().'.'.$image?->extension();
 
         if (!is_null($image) && $image->isValid()) {
-            $imageUrl = $image->storeAs('customers', $imageName);
+            $imageUrl = $image->storeAs('public', $imageName);
         }
 
         return $imageUrl;
